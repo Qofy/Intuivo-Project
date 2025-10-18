@@ -1,5 +1,37 @@
 @import "tailwindcss";
 
+@keyframes scroll-animate{
+  0% {
+    transform: translate3d(0,-20%,0);
+  }
+  100%{
+    transform: translate3d(0,-100%,0);
+  }
+}
+
+.animate-scroll{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation-name: scroll-animate;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+
+}
+
+.animate-odd{
+  animation-direction: reverse;
+  animation-name: scroll-animate;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+
+
+
+
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
