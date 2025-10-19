@@ -2,7 +2,7 @@ import PortfolioContent from "../../../components/AboutLeft"
 
 export default function Portfolio(){
   return(
-  <div className="pt-5">
+  <div className="pt-5" id="portfolio">
     <div className="flex flex-col items-center">
       <h1 className="h1-style">Portfolio</h1>
       <h3 className="uppercase">We love to produce software that covers a need.</h3>

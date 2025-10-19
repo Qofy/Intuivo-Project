@@ -2,7 +2,7 @@ import AboutLeft from "../../../components/AboutLeft";
 
 export default function AboutUs(){
   return(
-    <div className="div-grid">
+    <div className="div-grid" id="about us">
       <div className="flex flex-col gap-5">
         <div>
         <h1 className="h1-style">

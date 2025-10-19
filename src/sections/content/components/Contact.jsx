@@ -2,7 +2,7 @@
 
 export default function Contact(){
   return(
-    <div>
+    <div id="contact">
       <div className="flex flex-col items-center">
         <h1 className="h1-style">
           Contact
