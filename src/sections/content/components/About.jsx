@@ -2,10 +2,10 @@ import AboutLeft from "../../../components/AboutLeft";
 
 export default function AboutUs(){
   return(
-    <div className="w-full grid grid-cols-2 pt-6 gap-2.5">
+    <div className="div-grid">
       <div className="flex flex-col gap-5">
         <div>
-        <h1 className="text-[3rem] font-bold">
+        <h1 className="h1-style">
           About Intuivo
         </h1>
         <h3>
