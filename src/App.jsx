@@ -2,7 +2,8 @@
 import { BrowserRouter } from "react-router-dom" 
 
 import Header from "./sections/Header"
-import HeroSection from "./components/HeroSection"
+import HeroSection from "./sections/HeroSection"
+import Content from "./sections/content"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header/>
     </BrowserRouter>
       <HeroSection/>
+      <Content/>
     </div>
 
   )
