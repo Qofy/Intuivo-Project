@@ -9,7 +9,7 @@ import Content from "./sections/content"
 function App() {
 
   return (
-    <div className="bg-[#302e2f] h-[100dvh] text-[#a0bd35]">
+    <div className="bg-[#302e2f] h-[100dvh] text-[#a0bd35] px-3">
     <BrowserRouter>
       <Header/>
     </BrowserRouter>

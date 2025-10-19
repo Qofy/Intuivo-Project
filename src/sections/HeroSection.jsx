@@ -3,7 +3,7 @@ import AnimateContainerRight from "../components/Animate-Container-Right"
 
 export default function HeroSection(){
   return (
-    <div className="  h-[90dvh] flex overflow-hidden border-b-1 ">
+    <div className="  h-[90dvh] flex overflow-hidden border-b-1">
      <AnimationContainerLeft/>
       <div className="pt-16 w-1/3">
       <div className="flex flex-col justify-center text-center gap-5 my-30 mx-auto">

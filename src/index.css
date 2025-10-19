@@ -28,6 +28,10 @@
   animation-fill-mode: both;
 }
 
+.div-flex-style{
+  @apply flex flex-col gap-3 items-center border-1 h-80 py-2
+}
+
 
 
 
